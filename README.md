@@ -6,10 +6,6 @@ The name "ctc" stands for _**c**opy **t**ext to **c**lipboard_. This is a binary
 
 Supported platforms: Windows and Linux (with X server).
 
-## Demo
-
-TODO...
-
 ## Windows
 
 Put `ctc.exe` to a folder that is in your PATH.
@@ -20,7 +16,7 @@ Example:
 c:\> ctc hello.txt
 ```
 
-Now the text "`hello.txt`" is copied to the clipboard.
+Now the text "**hello.txt**" is copied to the clipboard.
 
 Help: `ctc.exe -h`
 
