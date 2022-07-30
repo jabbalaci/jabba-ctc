@@ -40,3 +40,7 @@ Help: `ctc -h`
 from crates.io using the command `cargo`:
 
     $ cargo install jabba-ctc
+
+## Links
+
+* [jabba-cpc](https://github.com/jabbalaci/jabba-cpc): **c**opy **p**ath to **c**lipboard
