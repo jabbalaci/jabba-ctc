@@ -4,13 +4,14 @@ pub fn print_help() {
     let text = format!("\
 ctc (copy text to clipboard) v{ver}
 
-- copies its argument (as text) to the clipboard
+Usage examples:
 
-Usage: ctc [option] [text_argument]
-where option can be:
-    -h or --help            get this help
+* ctc                   print help
+* ctc -h, ctc --help    print help
+* ctc <text>            copy the given text to clipboard
+* ctc -f <file>         copy the content of the given file to clipboard
 
-see https://github.com/jabbalaci/jabba-cpc for more info", ver=cfg::VERSION);
+see https://github.com/jabbalaci/jabba-ctc for more info", ver=cfg::VERSION);
 
     println!("{}", text);
 }

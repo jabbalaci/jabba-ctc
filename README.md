@@ -2,7 +2,20 @@
 
 The name "ctc" stands for _**c**opy **t**ext to **c**lipboard_. This is a binary crate.
 
-`ctc` copies its argument (as text) to the clipboard.
+`ctc` can copy its argument (as text) to the clipboard OR it can
+copy the content of a text file to the clipboard.
+
+```
+$ ctc --help
+ctc (copy text to clipboard) v0.1.1
+
+Usage examples:
+
+* ctc                   print help
+* ctc -h, ctc --help    print help
+* ctc <text>            copy the given text to clipboard
+* ctc -f <file>         copy the content of the given file to clipboard
+```
 
 Supported platforms: Windows and Linux (with X server).
 
@@ -18,8 +31,6 @@ c:\> ctc hello.txt
 
 Now the text "**hello.txt**" is copied to the clipboard.
 
-Help: `ctc.exe -h`
-
 ## Linux
 
 `ctc` relies on the external command `xclip` to manipulate the content of the clipboard.
@@ -31,8 +42,6 @@ puts the text on both of them, thus you can insert the text with one of the foll
 methods: Ctrl+v, Shift+Insert, or mouse middle click.
 
 See the example above, it works similarly under Linux.
-
-Help: `ctc -h`
 
 ## Installation
 

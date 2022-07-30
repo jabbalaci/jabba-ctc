@@ -1,6 +1,6 @@
 [package]
 name = "jabba-ctc"
-version = "0.1.0"  # Update version number in config.rs too!
+version = "0.1.1"  # Update version number in config.rs too!
 authors = ["Laszlo Szathmary, alias Jabba Laci <jabba.laci@gmail.com>"]
 edition = "2021"
 description = "Copies its argument (as text) to the clipboard."
