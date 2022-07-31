@@ -33,9 +33,9 @@ Now the text "**hello.txt**" is copied to the clipboard.
 
 ## Linux
 
-`ctc` relies on the external command `xclip` to manipulate the content of the clipboard.
-Thus, you must install `xclip` using your package manager (under Ubuntu it's
-`sudo apt install xclip`).
+`ctc` relies on the external command `xsel` to manipulate the content of the clipboard.
+Thus, you must install `xsel` using your package manager (under Ubuntu it's
+`sudo apt install xsel`).
 
 Under Linux, there are two clipboards. They are called "primary" and "clipboard". `ctc`
 puts the text on both of them, thus you can insert the text with one of the following
