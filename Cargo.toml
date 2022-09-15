@@ -15,9 +15,10 @@ keywords = ["argument", "clipboard"]
 jabba-lib = "0.1.6"
 
 [profile.release]
+strip = true
 opt-level = "z"
 lto = true
-strip = true
+codegen-units = 1
 
 [[bin]]
 bench = false
