@@ -53,3 +53,4 @@ from crates.io using the command `cargo`:
 ## Links
 
 * [jabba-cpc](https://github.com/jabbalaci/jabba-cpc): **c**opy **p**ath to **c**lipboard
+* [go-cpc-ctc](https://github.com/jabbalaci/go-cpc-ctc): a Go implementation of cpc and ctc
